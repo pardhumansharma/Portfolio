@@ -14,7 +14,7 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
