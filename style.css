@@ -504,7 +504,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 10px solid lightgrey;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
