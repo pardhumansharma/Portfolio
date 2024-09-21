@@ -557,6 +557,22 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.footer {
+  padding: 20px; /* Adjust this value as needed */
+  background-color: #000; /* Ensure footer color */
+  color: #fff; /* Text color */
+  text-align: center; /* Center alignment */
+  position: relative;
+}
+
+.contact {
+  margin-bottom: 10px; /* Add some margin to avoid overlap */
+  display: block; /* Ensure email is on a new line */
+  font-size: 16px; /* Adjust the font size if needed */
+  color: #fff; /* Text color */
+  word-break: break-word; /* Ensures email text breaks on smaller screens */
+}
+
 
 
 /* responsive media query start */
