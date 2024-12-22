@@ -547,7 +547,7 @@ section .title::after{
   background: none;
 }
 /* footer section styling */
-footer{
+/* footer{
     background: #111;
     padding: 15px 23px;
     color: #fff;
@@ -560,7 +560,31 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+/* Footer styling */
+footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px; /* Add padding around content */
+  text-align: center; /* Center-align text */
+  font-size: 14px; /* Ensure text size is readable */
+  position: relative; /* Ensure footer remains positioned properly */
+}
 
+/* Email styling */
+footer .email {
+  display: block; /* Ensure email is on its own line */
+  margin-bottom: 10px; /* Add spacing below email */
+  font-size: 14px; /* Adjust text size for readability */
+  word-wrap: break-word; /* Prevent long emails from overflowing */
+}
+
+/* Created by and copyright */
+footer .created-by {
+  display: block; /* Separate line for the created-by section */
+  margin-top: 10px; /* Add spacing above */
+}
+
+ */
 
 /* responsive media query start */
 @media (max-width: 1104px) {
